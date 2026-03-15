@@ -1,4 +1,4 @@
-# Set environment variables for Azure resources
+# nSet environment variables for Azure resources
 export RESOURCE_GROUP="rg-sentiment-${RANDOM_SUFFIX}"
 export LOCATION="eastus"
 export SUBSCRIPTION_ID=$(az account show --query id --output tsv)
